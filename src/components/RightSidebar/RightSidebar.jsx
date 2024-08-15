@@ -38,12 +38,6 @@ const RightSidebar = () => {
           {msgImages.map((url, index) => (
             <img onClick={() => window.open(url)} key={index} src={url} />
           ))}
-          {/* <img src={assets.pic1} alt="" />
-          <img src={assets.pic2} alt="" />
-          <img src={assets.pic3} alt="" />
-          <img src={assets.pic4} alt="" />
-          <img src={assets.pic1} alt="" />
-          <img src={assets.pic2} alt="" /> */}
         </div>
       </div>
       <button onClick={() => logout()}>Logout</button>
